@@ -1,0 +1,81 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- White Background -->
+  <rect width="1200" height="630" fill="white"/>
+
+  <!-- Decorative pattern dots -->
+  <circle cx="100" cy="100" r="4" fill="black" opacity="0.05"/>
+  <circle cx="150" cy="80" r="4" fill="black" opacity="0.05"/>
+  <circle cx="200" cy="120" r="4" fill="black" opacity="0.05"/>
+  <circle cx="1100" cy="530" r="4" fill="black" opacity="0.05"/>
+  <circle cx="1050" cy="550" r="4" fill="black" opacity="0.05"/>
+  <circle cx="1000" cy="510" r="4" fill="black" opacity="0.05"/>
+
+  <!-- Main QR Code Logo (Left Side) -->
+  <g filter="url(#shadow)">
+    <!-- Large QR Pattern -->
+    <!-- Top Left Corner -->
+    <rect x="150" y="165" width="120" height="120" rx="12" fill="black"/>
+    <rect x="170" y="185" width="80" height="80" rx="8" fill="white"/>
+    <rect x="195" y="210" width="30" height="30" rx="4" fill="black"/>
+
+    <!-- Top Right Corner -->
+    <rect x="290" y="165" width="120" height="120" rx="12" fill="black"/>
+    <rect x="310" y="185" width="80" height="80" rx="8" fill="white"/>
+    <rect x="335" y="210" width="30" height="30" rx="4" fill="black"/>
+
+    <!-- Bottom Left Corner -->
+    <rect x="150" y="305" width="120" height="120" rx="12" fill="black"/>
+    <rect x="170" y="325" width="80" height="80" rx="8" fill="white"/>
+    <rect x="195" y="350" width="30" height="30" rx="4" fill="black"/>
+
+    <!-- Bottom Right - Cute Face -->
+    <rect x="290" y="305" width="120" height="120" rx="60" fill="black"/>
+
+    <!-- Eyes -->
+    <circle cx="315" cy="340" r="10" fill="white"/>
+    <circle cx="365" cy="340" r="10" fill="white"/>
+
+    <!-- Smile -->
+    <path d="M315 375 Q340 388 365 375" stroke="white" stroke-width="8" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Title Text (Right Side) -->
+  <text x="500" y="280" font-family="system-ui, -apple-system, sans-serif" font-size="120" font-weight="800" fill="black">
+    QR ing
+  </text>
+
+  <!-- Korean Subtitle -->
+  <text x="500" y="340" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="600" fill="black" opacity="0.8">
+    큐알잉
+  </text>
+
+  <!-- Description -->
+  <text x="500" y="410" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="400" fill="black" opacity="0.6">
+    빠르고 간편한 무료 QR코드 생성기
+  </text>
+
+  <!-- Features -->
+  <g>
+    <rect x="500" y="455" width="4" height="4" fill="black"/>
+    <text x="520" y="482" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="black" opacity="0.7">
+      무료로 사용
+    </text>
+
+    <rect x="680" y="455" width="4" height="4" fill="black"/>
+    <text x="700" y="482" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="black" opacity="0.7">
+      한국어 지원
+    </text>
+
+    <rect x="860" y="455" width="4" height="4" fill="black"/>
+    <text x="880" y="482" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="black" opacity="0.7">
+      간편한 사용
+    </text>
+  </g>
+</svg>

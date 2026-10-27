@@ -1,0 +1,35 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- White Background Circle -->
+  <circle cx="100" cy="100" r="95" fill="white"/>
+
+  <!-- Black QR Pattern -->
+  <!-- Top Left Corner -->
+  <rect x="35" y="35" width="50" height="50" rx="6" fill="black"/>
+  <rect x="45" y="45" width="30" height="30" rx="4" fill="white"/>
+  <rect x="55" y="55" width="10" height="10" rx="2" fill="black"/>
+
+  <!-- Top Right Corner -->
+  <rect x="115" y="35" width="50" height="50" rx="6" fill="black"/>
+  <rect x="125" y="45" width="30" height="30" rx="4" fill="white"/>
+  <rect x="135" y="55" width="10" height="10" rx="2" fill="black"/>
+
+  <!-- Bottom Left Corner -->
+  <rect x="35" y="115" width="50" height="50" rx="6" fill="black"/>
+  <rect x="45" y="125" width="30" height="30" rx="4" fill="white"/>
+  <rect x="55" y="135" width="10" height="10" rx="2" fill="black"/>
+
+  <!-- Bottom Right - Cute Face -->
+  <rect x="115" y="115" width="50" height="50" rx="25" fill="black"/>
+  <circle cx="128" cy="130" r="4" fill="white"/>
+  <circle cx="152" cy="130" r="4" fill="white"/>
+  <path d="M128 145 Q140 151 152 145" stroke="white" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+  <!-- Data Pattern -->
+  <rect x="95" y="40" width="8" height="8" rx="1" fill="black"/>
+  <rect x="95" y="52" width="8" height="8" rx="1" fill="black"/>
+  <rect x="95" y="76" width="8" height="8" rx="1" fill="black"/>
+
+  <rect x="40" y="95" width="8" height="8" rx="1" fill="black"/>
+  <rect x="52" y="95" width="8" height="8" rx="1" fill="black"/>
+  <rect x="76" y="95" width="8" height="8" rx="1" fill="black"/>
+</svg>
